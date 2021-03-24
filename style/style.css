@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.header__inner{
+    padding: 20px 0;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+
+.menu__list{
+    display: flex;
+    list-style-type: none;
+
+
+}
+.menu__link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height:27px;
+    margin-right: 28px;
+    color: #22262A;
+    justify-content: space-between;
+}
+.far{
+    margin: 0 25px;
+
+}
+.fas, .far{
+    font-weight: 100;
+}
+#hero {
+    min-height: 745px;
+    margin-bottom: 125px;
+
+
+}
+.hero__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.hero__item-content{
+   position: absolute;
+    right: 150px;
+    bottom: 100px;
+}
+.hero__trend{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.hero__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+
+}
+.hero__desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    display: block;
+}
+.hero__link {
+    background: #22262A;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 25px;
+    display: inline-block;
+    margin: 25px 35px 0 0;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 -38px;
+
+}
+.col-6 {
+    width: 58px;
+    padding: 0 30px;
+}
+.image__category-men {
+    width:100%;
+
+}
+
+.row__female-category-imege {
+    display: flex;
+    margin: 28px -12px 0 -12px;
+
+
+}
+.female__col-6 {
+    width: 50%;
+    padding: 0 -12px;
+
+
+}
+.female__item {
+    width: 100%;
+
+}
+
+
